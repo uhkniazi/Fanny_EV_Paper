@@ -6,3 +6,6 @@ Reads the data frame with n rows and 6 columns (where columns 1 to 3 are group 1
 2 groups, and takes the means of each group. Uses the standard deviation and mean for each gene (across 6 samples) to scale
 the data by Mean and SD (data-mean / sd). Uses hclust to draw distance matrix and divides it into 3 groups. Uses aheatmap function
 to create a svg file with the heatmap figure. 
+
+# ratios.R
+fisher odds ratio tests for chromosomal distributions of Secrted vs non-secrted miRNAs
